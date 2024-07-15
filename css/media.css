@@ -1,0 +1,132 @@
+@media(max-width: 1024px) {
+    /* curtains */
+
+    .curtains h2 {
+        font-size: clamp(40px, 5vw, 100px);
+    }
+
+    .curtains-blocks {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .curtains-block__img {
+        height: 200px;
+    }
+
+    .curtains-block__info {
+        height: fit-content;
+    }
+
+    /* info */
+
+    .info-top {
+        flex-direction: column;
+        align-items: self-start;
+        gap: 20px;
+    }
+
+    .info h3 {
+        font-size: clamp(40px, 5vw, 100px);
+    }
+
+    .info-blocks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* about  */
+
+    .about h2 {
+        font-size: clamp(40px, 5vw, 100px);
+    }
+
+    /* faq */
+
+    .faq h2 {
+        font-size: clamp(40px, 5vw, 100px);
+    }
+}
+
+
+
+@media(max-width: 768px) {
+
+    .logo a img {
+        width: 100px;
+        height: 100px;
+    }
+
+    main section {
+        padding: 40px 0px;
+    }
+
+    /* header */
+
+    
+    .header__section p {
+        font-size: clamp(40px, 4vw, 100px);
+    }
+
+    .header__section p:nth-child(2) {
+        font-size: clamp(50px, 5vw, 150px);
+    }
+
+    .header__section p:nth-child(3) {
+        font-size: clamp(10px, 3vw, 20px);
+    }
+
+    /* info */
+
+    .info-blocks {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .info-block img {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    /* about */
+
+    .about-top__wrapper {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    /* faq */
+
+    
+
+    .faq .container {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .faq-left {
+        max-width: 100%;
+    }
+
+    /* footer */
+
+    footer .container {
+        padding: 40px 0px;
+    }
+}
+
+
+@media(max-width: 450px) {
+    /* header */
+    .header-top {
+        flex-direction: column;
+        align-items: self-start;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+
+    /* footer */
+
+    footer .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

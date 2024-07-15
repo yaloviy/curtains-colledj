@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "LTSuperior";
+    src: url("../fonts/LTSuperior-Regular.otf");
+}
+
+@font-face {
+    font-family: "LTSuperior";
+    font-weight: 700;
+    src: url("../fonts/LTSuperior-Bold.otf")
+}
+
+
+@font-face {
+    font-weight: 400; 
+    font-family: "LTSuperior";
+    src: url("../fonts/LTSuperior-Regular.otf");
+  }
+
+
+
+@font-face {
+    font-weight: 500; 
+    font-family: "LTSuperior";
+    src: url("../fonts/LTSuperior-Medium.otf");
+}
+
+
+
+* {
+    font-family: "LTSuperior";
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+
+p {
+    font-weight: 500;
+}
+
+
+span {
+    font-weight: 400;
+}
+
+a {
+    font-weight: 700;
+}

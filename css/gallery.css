@@ -1,0 +1,23 @@
+header {
+    padding-top: 20px;
+    min-height: 25vh;
+  }
+  
+  
+/* Стили для галереи */
+.gallery {
+    display: grid; /* Использование grid для расположения элементов */
+    grid-template-columns: repeat(4, 1fr); /* Создание четырех колонок с равным распределением пространства */
+    gap: 15px; /* Отступ между элементами grid */
+    background-color: #303135;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/* Стили для изображений в галерее */
+.gallery img {
+    width: 100%; /* Заполнение ячейки grid */
+    height: 500px;
+}

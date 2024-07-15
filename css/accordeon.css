@@ -1,0 +1,67 @@
+.accordeons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.accordeon {
+    border-top: 2px solid rgb(190, 190, 190);
+    border-bottom: 2px solid rgb(190, 190, 190);
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+.accordeon:first-child {
+    border-bottom: 0px solid rgb(190, 190, 190);
+}
+
+.accordeon:last-child {
+    border-top: 0px;
+}
+
+.accordeon-title p {
+    font-size: clamp(18px, 1.2vw, 25px);
+}
+
+
+
+.accordeon-title {
+    position: relative;
+    width: 100%;
+    padding-right: 20px;
+}
+
+
+.accordeon-title svg {
+    position: absolute;
+    transition: 0.5s;
+    right: 0;
+    top: 0;
+}
+
+
+.accordeon-subtitle {
+    font-size: clamp(12px, 0.8vw, 18px);
+    color: rgb(221, 221, 221);
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    /* margin-left: 40px; */
+}
+
+.accordeon.active .accordeon-subtitle {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+
+
+.accordeon.active .accordeon-title svg {
+    transition: 0.5s;
+    transform: scaleY(-1);
+}

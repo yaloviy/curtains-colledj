@@ -1,0 +1,101 @@
+.element-animation {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.element-animation__show {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.logo a {
+    transform: scale(0);
+    transition: 1s;
+}
+
+header .container.element-animation__show .logo a {
+    transform: scale(1);
+    transition: 1s;
+}
+
+.info-block {
+    transform: scale(0);
+    transition: 1s;
+}
+
+.info .container.element-animation__show .info-block {
+    transform: scale(1);
+    transition: 1s;
+}
+
+
+.curtains-blocks {
+    transform: scale(0);
+    transition: 1s;
+}
+
+.curtains .container.element-animation__show .curtains-blocks {
+    transition: 1s;
+    transform: scale(1);
+}
+
+
+/* about */
+
+.about {
+    overflow: hidden;
+}
+
+.about-top__left {
+    transform: translate(-10000px, 0px);
+    transition: 1s;
+}
+
+.about-top__right {
+    transform: translate(10000px, 0px);
+    transition: 1s;
+}
+
+
+.about .container.element-animation__show .about-top__left {
+    transform: translate(0px, 0px);
+    transition: 1s;
+}
+
+
+
+.about .container.element-animation__show .about-top__right {
+    transform: translate(0px, 0px);
+    transition: 1s;
+}
+
+
+
+/* faq */
+
+.faq {
+    overflow: hidden;
+}
+
+.accordeons {
+    transform: translate(0px, 300px);
+    transition: 1s;
+}
+
+
+.faq .container.element-animation__show .accordeons {
+    transform: translate(0px, 0px);
+    transition: 1s;
+}
+
+
+
+/* footer */
+
+
+footer .container.element-animation__show .logo a {
+    transform: scale(1);
+    transition: 1s;
+}
